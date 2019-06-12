@@ -5,7 +5,9 @@ navbar{
     width: auto;
     line-height: 129px;
 }
-
+a{
+    color:white;
+}
 
 main{
 width: 100%;
@@ -38,13 +40,29 @@ margin-right: auto;
 left: 0;
 right: 0;
 }
+.featured{
+    text-align: center;
+}
 
+.insidetext{ 
+background: white;
+
+margin-top:50%;
+margin-bottom: 50%;
+
+}
+.image{
+    width: 303px;
+    height:186px;
+    background: gray;
+}
 .col-1-2{
     text-align: center;
     width: 50%;
     float:left;
     background:rgb(32,32,32);
     height: 643px;
+    text-align: center;
     
 }
 .right{
@@ -64,7 +82,10 @@ right: 0;
     height: 407px;
     
 }
-
+.text-members{
+    
+    color:white;
+}
 .latest:after {
     content: "";
     display: table;
@@ -84,9 +105,17 @@ right: 0;
     display: table;
     clear: both;
   }
-.seemore{
+  .seemore{
     width: 100%;
     height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.seemore1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    
 }
 
 .more-articles:after {
@@ -98,9 +127,39 @@ right: 0;
     width: 100%;
     height: 600px;
     background: black;
+    text-align: center;
+    line-height: 600px;
+    color: white;
 }
 
 footer{
     background: rgb(68, 68, 68);
     height: 500px;
+}
+
+.personweek{
+    width: 100px;
+    height: 100px;
+    background: white;
+    line-height: 300px;
+    float:left;
+    margin-left: 200px;
+    margin-top:50px;
+}
+
+.person{
+    width: 10%;
+    height: 10%;
+    background: white;
+    line-height: 300px;
+    float:left;
+    margin-left: 50px;
+    margin-top:50px;
+}
+
+.text-person{
+    float:left;
+    margin-left: 50px;
+    margin-top:50px;
+    width: 60%;
 }
