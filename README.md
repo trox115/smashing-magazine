@@ -4,4 +4,4 @@ This project is based on this: [Smashing Magazine website](https://www.smashingm
 [António Fernandes](http://github.com/trox115)
 [Gonzalo Javier Paz](http://github.com/gonjavi)
 ### Link of the live version:
-[Live Version](https://raw.githack.com/trox115/apple/development/index.html)
+[Live Version](https://raw.githack.com/trox115/smashing-magazine/development/index.html)
