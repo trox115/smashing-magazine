@@ -1,9 +1,21 @@
 body{
     background: gray;
 }
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 navbar{
     width: auto;
     line-height: 129px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 22px;
+    color:white;
 }
 a{
     color:white;
@@ -39,16 +51,20 @@ margin-left: auto;
 margin-right: auto;
 left: 0;
 right: 0;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-size: 30px;
 }
 .featured{
     text-align: center;
 }
 
-.insidetext{ 
+.insidetext { 
 background: white;
-
+font-family: 'Raleway', sans-serif;
 margin-top:50%;
 margin-bottom: 50%;
+font-weight: 300;
 
 }
 .image{
@@ -84,10 +100,29 @@ margin-bottom: 50%;
     height: 407px;
     
 }
-.text-members{
-    
-    color:white;
+
+.col-1-3 h1{
+    font-family: 'Bungee Shade', cursive;
 }
+
+
+.time{
+    font-family: 'Raleway', sans-serif;
+font-weight: 100;
+font-size: 11px;
+text-align: left;
+line-height: 1px;
+}
+
+.signature{
+    font-family: 'Raleway', sans-serif;
+font-weight: 300;
+font-size: 11px;
+text-align: left;
+line-height: 1px;
+}
+
+
 .latest:after {
     content: "";
     display: table;
