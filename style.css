@@ -6,10 +6,14 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-navbar{
+nav{
     width: auto;
     line-height: 129px;
     font-family: 'Raleway', sans-serif;
+    background-color: #feca57;
+    height: 129px;
+    
+    
 }
 
 .logo{
@@ -24,15 +28,16 @@ a{
 main{
 width: 100%;
 }
+/*nav bar block*/
 .col-1-7{
     text-align: center;
-width: 14.28%;
-float:left;
-background:rgb(68, 68, 68);
-height: 129px;
+    width: 14.28%;
+    float:left;
+    background-color: #feca57;
+    height: 129px;
 
 }
-navbar:after {
+nav:after {
     content: "";
     display: table;
     clear: both;
@@ -85,7 +90,7 @@ color:gray;
     
 }
 .right{
-    background: rgb(96,96,96);
+    background: #f6e58d;
 }
 .featured:after {
     content: "";
@@ -157,14 +162,14 @@ line-height: 1px;
     background-color: white;
 }
 /* toy biz picture and bell boxes*/
-.members .col-2-3 .text-members .image {
+.col-2-3 .image {
     width: 25%;
     height: 183px;
     margin-top: 20px;
     border-radius: 10px;
     background-color: white;
 }
-.members .col-2-3 .text-members .image img{
+.col-2-3 .image img{
     width: 70%;
     height: 183px;
 }
