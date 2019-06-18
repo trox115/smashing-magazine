@@ -143,8 +143,11 @@ line-height: 1px;
     width: 66.66%;
     float:left;
      background: rgb(68, 68, 68);;
-    height: 407px;
+    height: 660px;
     
+}
+.members{
+    background-color: white;
 }
 .members:after {
     content: "";
