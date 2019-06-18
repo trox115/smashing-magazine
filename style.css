@@ -138,16 +138,35 @@ line-height: 1px;
     clear: both;
   }
 
+  /*================================
+
+            big block on the right
+===================================*/
   .col-2-3{
-    text-align: center;
     width: 66.66%;
     float:left;
-     background: rgb(68, 68, 68);;
     height: 660px;
+    border-radius: 20px;
+    text-align: center;
+    background: #feca57;
     
 }
+
+
 .members{
     background-color: white;
+}
+/* toy biz picture and bell boxes*/
+.members .col-2-3 .text-members .image {
+    width: 25%;
+    height: 183px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.members .col-2-3 .text-members .image img{
+    width: 70%;
+    height: 183px;
 }
 .members:after {
     content: "";
