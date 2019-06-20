@@ -10,7 +10,7 @@ nav{
     width: auto;
     line-height: 129px;
     font-family: 'Raleway', sans-serif;
-    background-color: gray;
+    background-color: #DCDCDC;
     height: 129px;
     
     
@@ -34,7 +34,7 @@ width: 100%;
     text-align: center;
     width: 14.28%;
     float:left;
-    background-color: #a5b1c2;
+    background-color: 	#808080;
     height: 129px;
 
 }
@@ -94,13 +94,13 @@ color:gray;
     text-align: center;
     width: 50%;
     float:left;
-    background:#d1d8e0;
+    background:#C0C0C0;
     height: 643px;
     text-align: center;
     
 }
 .right{
-    background: #f7f1e3;
+    background: #DCDCDC;
 }
 
 /*pictures*/
