@@ -10,7 +10,7 @@ nav{
     width: auto;
     line-height: 129px;
     font-family: 'Raleway', sans-serif;
-    background-color: #feca57;
+    background-color: gray;
     height: 129px;
     
     
@@ -30,12 +30,22 @@ width: 100%;
 }
 /*nav bar block*/
 .col-1-7{
+    position: relative;
     text-align: center;
     width: 14.28%;
     float:left;
     background-color: #a5b1c2;
     height: 129px;
 
+}
+.col-1-7 p{
+    position: absolute;
+    top: 10px;
+    left:30px;
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
 }
 nav:after {
     content: "";
