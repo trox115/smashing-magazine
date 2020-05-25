@@ -24,7 +24,7 @@ This project is based on this: [Smashing Magazine website](https://www.smashingm
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/trox115/smashing-magazine/development/index.html)
+[Live Demo Link](https://trox115.github.io/smashing-magazine/)
 
 
 ## 🤝 Contributing
